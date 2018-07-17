@@ -1,0 +1,12 @@
+<input [(ngModel)]="searchText" placeholder="Search...">
+<ul>
+  <li *ngFor="let item of db | filter : searchText">
+    {{item.key}}
+    <ul>
+      <li *ngFor="let anime of item.value">
+          <p>{{anime.name}}</p>
+          <img src="{{anime.picture}}">
+      </li>
+    </ul>
+  </li>
+</ul>
