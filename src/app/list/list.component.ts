@@ -31,7 +31,25 @@ export class ListComponent implements OnInit {
     },
     {
       key: 'The Flash',
-      value: ['One Punch Man', 'My Hero Academia', 'Dragon Ball Super']
+      value: [
+        {
+          name : 'My Hero Academia',
+          picture: 'https://img1.ak.crunchyroll.com/i/spire1/84618be75ad3f94f530b2b1e7c821ed61492723563_full.jpg',
+          description: 'With no real-world skills, the devil is forced to make ends meet flipping burgers at a fast food joint!',
+          pic_height: 50,
+          pic_width : 50
+        },
+        {
+          name: 'One Punch Man',
+          picture: '../../assets/shimoneta.jpg',
+          description: 'In a world where dirty jokes dont exist, a hero must rise up as a symbol for all things lewd and rude.'
+        },
+        {
+          name: 'Bungou Stray Dogs',
+          picture: '../../assets/mkd.jpg',
+          description: 'Miss Kobayashi is your average office worker who lives a boring life, until she saves the life of a female dragon',
+        }
+      ],
     },
     {
       key: 'Supernatural',
