@@ -6,13 +6,28 @@ li {
     position: relative;
     left: -28px;
 }
-
-.description {
-    position: relative;
-    text-align: right;
-}
-
 ul {
   background-color: aliceblue;
   border-bottom-width: 55px;  
+}
+div {
+    position: relative;
+    left: 290px;
+    bottom: 115px;
+}
+svg {
+    position: relative;
+    left: -190px;
+    bottom: 20px;
+}
+input {
+    position: relative;
+    left: 450px;
+    bottom: 45px;
+}
+
+button {
+    position: relative;
+    left: 450px;
+    bottom: 45px;
 }

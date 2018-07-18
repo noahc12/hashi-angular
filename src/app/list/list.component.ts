@@ -14,18 +14,22 @@ export class ListComponent implements OnInit {
           name : 'The Devils a Part Timer',
           picture: 'https://img1.ak.crunchyroll.com/i/spire1/84618be75ad3f94f530b2b1e7c821ed61492723563_full.jpg',
           description: 'With no real-world skills, the devil is forced to make ends meet flipping burgers at a fast food joint!',
-          pic_height: 50,
-          pic_width : 50
+          pic_height: 150,
+          pic_width : 150
         },
         {
           name: 'Shimoneta',
           picture: '../../assets/shimoneta.jpg',
-          description: 'In a world where dirty jokes dont exist, a hero must rise up as a symbol for all things lewd and rude.'
+          description: 'In a world where dirty jokes dont exist, a hero must rise up as a symbol for all things lewd and rude.',
+          pic_height: 150,
+          pic_width : 140
         },
         {
           name: 'Miss Kobayashis Dragon Maid',
           picture: '../../assets/mkd.jpg',
-          description: 'Miss Kobayashi is your average office worker who lives a boring life, until she saves the life of a female dragon',
+          description: 'Miss Kobayashi is your average office worker who lives a boring life, until she saves the life of a female dragons',
+          pic_height: 200,
+          pic_width : 200
         }
       ],
     },
@@ -41,6 +45,7 @@ export class ListComponent implements OnInit {
         },
         {
           name: 'One Punch Man',
+          link: '',
           picture: '../../assets/opm.jpg',
           description: 'In a world where dirty jokes dont exist, a hero must rise up as a symbol for all things lewd and rude.'
         },
