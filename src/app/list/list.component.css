@@ -15,19 +15,22 @@ div {
     left: 290px;
     bottom: 115px;
 }
-svg {
+#logo {
     position: relative;
     left: -190px;
-    bottom: 20px;
+    bottom: 10px;
+    width: 95px;
+    height: 60px;
+    
 }
 input {
     position: relative;
     left: 450px;
-    bottom: 45px;
+    bottom: 25px;
 }
 
 button {
     position: relative;
     left: 450px;
-    bottom: 45px;
+    bottom: 25px;
 }

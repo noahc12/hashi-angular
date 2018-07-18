@@ -17,3 +17,11 @@ button {
 hr {
     bottom: -56px;
 }
+#logo {
+    position: relative;
+    left: -190px;
+    bottom: 10px;
+    width: 95px;
+    height: 60px;
+    
+}
