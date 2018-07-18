@@ -4,17 +4,19 @@
 </button>
 <a href="../home.component.html"><img id="logo"src="../../assets/hashi.jpg"></a>
 <ul>
-  <li *ngFor="let item of db| filter : searchText">
-    {{item.key}}
+  <ul *ngFor="let item of db| filter : searchText">
+    <h1>
+        Related To:{{item.key}}
+    </h1>
     <ul>
-      <li *ngFor="let anime of item.value">
+      <ul *ngFor="let anime of item.value">
         <p>{{anime.name}}</p>
         <img src="{{anime.picture}}" height="{{anime.pic_height}}" width="{{anime.pic_width}}">
         <div>
             <p>{{anime.description}}</p>
         </div>
         <hr> 
-      </li>
+      </ul>
     </ul>
-  </li>
+  </ul>
 </ul>

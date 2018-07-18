@@ -1,14 +1,15 @@
+h1 {
+    font-family: optima;
+    text-align: center;
+}
 p {
     font-family: optima;
 }
-li {
-    font-family: optima;
-    position: relative;
-    left: -28px;
-}
+
 ul {
   background-color: aliceblue;
-  border-bottom-width: 55px;  
+ left: -45px;
+  
 }
 div {
     position: relative;
