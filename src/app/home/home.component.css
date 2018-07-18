@@ -1,0 +1,16 @@
+img {
+    width: 45px;
+    height: 30px;
+    position: relative;
+    bottom: -105px;
+}
+input {
+    position: relative;
+    left: 450px;
+    bottom: 45px;
+}
+button {
+    position: relative;
+    left: 450px;
+    bottom: 45px;
+}

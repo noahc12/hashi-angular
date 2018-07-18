@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { ListComponent } from './list/list.component';
 import { FilterPipe } from './filter.pipe';
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    Ng2CarouselamosModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
