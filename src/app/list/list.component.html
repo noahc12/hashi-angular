@@ -5,7 +5,8 @@
     <ul>
       <li *ngFor="let anime of item.value">
         <p>{{anime.name}}</p>
-        <img src="{{anime.picture}}" height="{{anime.height}}" width="{{anime.width}}">
+        <img src={{anime.picture}}>
+        <hr> 
         <p id = "descrption">{{anime.description}}</p>
       </li>
     </ul>
