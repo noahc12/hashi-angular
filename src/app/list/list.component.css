@@ -7,9 +7,12 @@ h1 {
 p {
     font-family: optima;
 }
+#navbarcolor {
+    background-color: #C6F4CB;
+}
 #animeloc {
 position: relative;
-bottom: 55px;
+bottom: 5px;
 }
 #namecolor {
 color: #009C35;
@@ -17,13 +20,14 @@ text-decoration-line: underline;
 }
 ul {
   background-color: #F2F9F2;
- left: -705px;
+  position: relative;
+ left: -40px;
   
 }
 div {
     position: relative;
     left: 180px;
-    bottom: 11px;
+    bottom: 75px;
     
 }
 #logo {

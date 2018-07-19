@@ -1,18 +1,21 @@
-<div id="color"><input [(ngModel)]="searchText" placeholder="Search">
+<div class="navbarcolor"><input [(ngModel)]="searchText" placeholder="Search">
 <button (click)="goToList()">
     Search
 </button>
 <a href="../home.component.html"><img id="logo" src="../../assets/hashi.jpg"></a>
 </div>
   
+<slideshow [height]="'500px'"
+[minHeight]="'200px'"
+[autoPlay]="false"
+[showArrows]="true"
+[showDots]="true"
+[imageUrls]="imageSources"
+[lazyLoad]="imageSources?.length > 1"
+[autoPlayWaitForLazyLoad]="true">
+
+</slideshow>
   
-  <ng-template #prev>
-    <img src="../../assets/left.jpg" id="left" />
-  </ng-template>
-  <ng-template #next>
-    <img src="../../assets/right.jpg" id="right" />
-    
-  </ng-template>
   <ng-template #item let-item let-i="home">
   
       <div class="items">
@@ -20,11 +23,7 @@
       </div>
   
   </ng-template>
-  
-<hr>
-<p>
-    Carousel place holder rip.
-</p>
+
 <hr>
 <div class="row">
     <div class="col-md-4">

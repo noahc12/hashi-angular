@@ -2,19 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { getBootstrapListener } from '../../../node_modules/@angular/router/src/router_module';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
-export class AppComponent {
-  items: Array<any> = [];
-  constructor() {
-    this.items = [
-      { name: '../../assets/flash.jpg' },
-      { name: '../../assets/office.jpg' },
-      { name: '../../assets/supernatural.jpg' },
-      { name: '../../assets/r&m.jpg' },
-      { name: '../../assets/bach.jpg' },
-    ];
-  }
-
-}
 
 @Component({
   selector: 'app-home',
@@ -23,7 +10,15 @@ export class AppComponent {
 })
 export class HomeComponent implements OnInit {
   searchText;
+  imageSources = [
+    '../../assets/flash.jpg',
+    '../../assets/bach.jpg',
+    '../../assets/office.jpg',
+    '../../assets/r&m.jpg',
+    '../../assets/supernatural.jpg',
+  ];
   constructor(private router: Router) { }
+
 
   ngOnInit() {
   }

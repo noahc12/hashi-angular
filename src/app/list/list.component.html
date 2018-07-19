@@ -1,8 +1,9 @@
 <input [(ngModel)]="searchText" placeholder="Search">
-<button (click)="goToList()">
-    Search
-</button>
-<a href="../home.component.html"><img id="logo" src="../../assets/hashi.jpg"></a>
+  <button (click)="goToList()">
+      Search
+  </button>
+  <a href="../home.component.html"><img id="logo" src="../../assets/hashi.jpg"></a>
+  
 
 <ul>
   <ul *ngFor="let item of db| filter : searchText">
