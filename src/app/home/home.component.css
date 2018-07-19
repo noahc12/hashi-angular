@@ -1,3 +1,6 @@
+#color{
+    background-color: #C6F4CB;
+}
 img {
     width: 150px;
     height: 100px;
@@ -24,4 +27,55 @@ hr {
     width: 95px;
     height: 60px;
     
+    
+}
+#st {
+    position: relative;
+    left: 505px;
+    bottom: -400px;
+}
+#prr {
+position: relative;
+left: 945px;
+bottom: -151px;
+}
+#gote {
+position: relative;
+left: 35px;
+bottom: 99px;
+}
+.stcaption {
+    position: relative;
+    left: 505px;
+}
+#gtitle {
+position: relative;
+font-family: optima;
+bottom: 115px;
+left: 63px;
+color: #009C35;
+text-decoration-line: underline;
+}
+#gfont {
+position: relative;
+font-family: optima;
+left: 85px;
+bottom: 135px;
+}
+#stitle {
+    position: relative;
+    font-family: optima;
+    bottom: -450px;
+}
+#sfont {
+    position: relative;
+    font-family: optima;
+}
+#ptitle {
+    position: relative;
+    font-family: optima;
+}
+#pfont {
+    position: relative;
+    font-family: optima;
 }

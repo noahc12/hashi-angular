@@ -1,9 +1,9 @@
-<input [(ngModel)]="searchText" placeholder="Search">
+<div id="color"><input [(ngModel)]="searchText" placeholder="Search">
 <button (click)="goToList()">
     Search
 </button>
 <a href="../home.component.html"><img id="logo" src="../../assets/hashi.jpg"></a>
-
+</div>
   
   
   <ng-template #prev>
@@ -30,31 +30,36 @@
     <div class="col-md-4">
       <div class="thumbnail">
         <a href="../../assets/ST.jpg">
-          <img src="../../assets/ST.jpg" alt="Lights" style="width:100%">
-          <div class="caption">
-            <p>Lorem ipsum...</p>
+          <img id="st" src="../../assets/ST.jpg"  style="width:100px" style="height: 150px"></a>
+          <div class="stcaption">
+            <h5 id="stitle">Stranger Things</h5>
+            <p id="sfont">dkwdm</p>
           </div>
-        </a>
+       
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
         <a href="../../assets/pr.jpg">
-          <img src="../../assets/pr.jpg" alt="Nature" style="width:50px">
-          <div class="caption">
-            <p>Lorem ipsum...</p>
+          <img id= "prr" src="../../assets/pr.jpg"  style="width:100px" style="height: 150px"></a>
+          <div class="pcaption">
+            <h5 id="ptitle">Parks and Recreation</h5>  
+            <p id="pfont">sjdnsjd</p>
           </div>
-        </a>
+       
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
         <a href="../../assets/got.jpg">
-          <img src="../../assets/got.jpg" alt="Fjords" style="width:50">
-          <div class="caption">
-            <p>Lorem ipsum...</p>
+          <img id="gote"src="../../assets/got.jpg"  style="width:100px" style="height: 150px"></a>
+          <div class="gcaption">
+            <h5 id="gtitle">Game of Thrones</h5>
+            <p id="gfont">
+              sdbshd
+              </p>
           </div>
-        </a>
+       
       </div>
     </div>
   </div>

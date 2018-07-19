@@ -8,6 +8,7 @@ import { ListComponent } from './list/list.component';
 import { FilterPipe } from './filter.pipe';
 import {SlideshowModule} from 'ng-simple-slideshow';
 
+
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'result', component: ListComponent},
@@ -33,7 +34,7 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     ),
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

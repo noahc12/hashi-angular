@@ -57,7 +57,7 @@ export class ListComponent implements OnInit {
       ],
     },
     {
-      key: 'Supernatural',
+      key: 'Stranger Things',
       value: ['Tokyo Ghoul']
     },
   ];
