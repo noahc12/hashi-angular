@@ -39,20 +39,24 @@ export class ListComponent implements OnInit {
         {
           name : 'My Hero Academia',
           picture: '../../assets/bnha.jpg',
-          description: 'With no real-world skills, the devil is forced to make ends meet flipping burgers at a fast food joint!',
-          pic_height: 50,
-          pic_width : 50
+          description: 'Izuku has dreamt of being a hero all his life sespecially challenging for a kid with no superpowers.',
+          pic_height: 100,
+          pic_width : 100
         },
         {
           name: 'One Punch Man',
           link: '',
           picture: '../../assets/opm.jpg',
-          description: 'In a world where dirty jokes dont exist, a hero must rise up as a symbol for all things lewd and rude.'
+          description: 'In a world of superhuman beings, Saitama is a unique hero, he can defeat enemies with a single punch.',
+          pic_height: 100,
+          pic_width : 100
         },
         {
           name: 'Bungou Stray Dogs',
           picture: '../../assets/bungou.jpg',
-          description: 'Miss Kobayashi is your average office worker who lives a boring life, until she saves the life of a female dragon',
+          description: 'Kicked out of his orphanage and on the verge of starving to death, Nakajima Atsushi meets some strange men. ',
+          pic_height: 100,
+          pic_width : 100,
         }
       ],
     },

@@ -1,20 +1,30 @@
 h1 {
     font-family: optima;
     text-align: center;
+    text-decoration-line: underline;
+
 }
 p {
     font-family: optima;
 }
-
+#animeloc {
+position: relative;
+bottom: 55px;
+}
+#namecolor {
+color: #009C35;
+text-decoration-line: underline;
+}
 ul {
-  background-color: aliceblue;
- left: -45px;
+  background-color: #F2F9F2;
+ left: -705px;
   
 }
 div {
     position: relative;
-    left: 290px;
-    bottom: 115px;
+    left: 180px;
+    bottom: 11px;
+    
 }
 #logo {
     position: relative;

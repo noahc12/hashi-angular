@@ -1,21 +1,21 @@
-#color{
-    background-color: #C6F4CB;
-}
 img {
     width: 150px;
     height: 100px;
     position: relative;
     bottom: -105px;
 }
+#color{
+    background-color: #C6F4CB;
+}
 input {
     position: relative;
     left: 450px;
-    bottom: 45px;
+    bottom: 25px;
 }
 button {
     position: relative;
     left: 450px;
-    bottom: 45px;
+    bottom: 25px;
 }
 hr {
     bottom: -56px;

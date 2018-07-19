@@ -7,11 +7,13 @@ import { FormsModule } from '@angular/forms';
 import { ListComponent } from './list/list.component';
 import { FilterPipe } from './filter.pipe';
 import {SlideshowModule} from 'ng-simple-slideshow';
+import { DescriptionComponent } from './description/description.component';
 
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'result', component: ListComponent},
+  { path: 'description', component: DescriptionComponent},
   {
     path: '',
     redirectTo: '/home',
@@ -25,7 +27,8 @@ const appRoutes: Routes = [
     AppComponent,
     HomeComponent,
     ListComponent,
-    FilterPipe
+    FilterPipe,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
