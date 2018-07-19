@@ -11,7 +11,7 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 export class HomeComponent implements OnInit {
   searchText;
   imageSources = [
-    '../../assets/flash.jpg',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Qs9KpmBpu5OFW4qXpg_LGeiqJOrrTCsfI5eg2mgPeccJnLhr',
     '../../assets/bach.jpg',
     '../../assets/office.jpg',
     '../../assets/r&m.jpg',

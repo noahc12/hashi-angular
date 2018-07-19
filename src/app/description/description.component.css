@@ -1,0 +1,22 @@
+.navbarcolor{
+    background-color: #C6F4CB;
+}
+input {
+    position: relative;
+    left: 450px;
+    bottom: 25px;
+}
+button {
+    position: relative;
+    left: 450px;
+    bottom: 25px;
+}
+#logo {
+    position: relative;
+    left: -190px;
+    bottom: 10px;
+    width: 95px;
+    height: 60px;
+    
+    
+}
