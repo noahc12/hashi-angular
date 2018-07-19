@@ -52,7 +52,7 @@ bottom: 99px;
 position: relative;
 font-family: optima;
 bottom: 115px;
-left: 63px;
+left: 40px;
 color: #009C35;
 text-decoration-line: underline;
 }
@@ -65,17 +65,29 @@ bottom: 135px;
 #stitle {
     position: relative;
     font-family: optima;
-    bottom: -450px;
+    bottom: -385px;
+    left: 10px;
+    color: #009C35;
+text-decoration-line: underline;
 }
 #sfont {
     position: relative;
     font-family: optima;
+    left: 50px;
+    bottom: -365px;
+
 }
 #ptitle {
     position: relative;
     font-family: optima;
+    bottom: -135px;
+    left: 940px;
+    color: #009C35;
+text-decoration-line: underline;
 }
 #pfont {
     position: relative;
     font-family: optima;
+    left: 995px;
+    bottom: -115px;
 }
