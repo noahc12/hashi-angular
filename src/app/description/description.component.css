@@ -17,6 +17,21 @@ button {
     bottom: 10px;
     width: 95px;
     height: 60px;
-    
-    
+}
+#bnha {
+    position: relative;
+    left: 390px;
+    bottom: -10px;
+    width: 250px;
+    height: 350px;
+}
+#rating {
+    color: #009C35;
+    text-decoration-line: underline;
+    font-family: optima;
+}
+#about {
+    color: #009C35;
+    text-decoration-line: underline;
+    font-family: optima;
 }
