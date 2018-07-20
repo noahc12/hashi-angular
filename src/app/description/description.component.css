@@ -1,3 +1,11 @@
+h1 {
+    font-size: 20px;
+    position: relative;
+    bottom: 360px;
+    left: 430px;
+    color: #009C35;
+    text-decoration-line: underline;
+}
 .navbarcolor{
     background-color: #C6F4CB;
 }
@@ -25,7 +33,7 @@ h6 {
 #bnha {
     position: relative;
     left: 390px;
-    bottom: -10px;
+    bottom: -54px;
     width: 250px;
     height: 350px;
 }
