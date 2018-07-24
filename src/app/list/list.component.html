@@ -2,7 +2,7 @@
   <button (click)="goToList()">
       Search
   </button>
-  <a href="home"><img id="logo" src="../../assets/hashi.jpg"></a>
+  <a href="home"><img id="logo" src="../../assets/logo2.png"></a>
   
 
 <ul>
@@ -12,8 +12,9 @@
     </h1>
     <ul>
       <ul *ngFor="let anime of item.value">
-        <p id="namecolor">{{anime.name}}</p>
+          <a href="description"><p id="namecolor">{{anime.name}}</p></a>
         <a href="description"><img src="{{anime.picture}}" height="{{anime.pic_height}}" width="{{anime.pic_width}}"></a>
+        
         <div>
             <p id="animeloc">Summary: {{anime.description}}</p>
         </div>

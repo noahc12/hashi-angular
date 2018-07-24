@@ -1,8 +1,6 @@
-<div class="navbarcolor"><input [(ngModel)]="searchText" placeholder="Search">
-<button (click)="goToList()">
-    Search
-</button>
-<a href="home"><img id="logo" src="../../assets/hashi.jpg"></a>
+<div class="navbarcolor">
+  <input [(ngModel)]="searchText" placeholder="Search" (keyup.enter)="goToList()">
+  <a href="home"><img id="logo" src="../../assets/logo1.png"></a>
 </div>
   
 <slideshow [height]="'500px'"

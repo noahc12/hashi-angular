@@ -5,25 +5,29 @@ img {
     bottom: -105px;
 }
 .navbarcolor{
-    background-color: #C6F4CB;
+    background-color: #26408B;
+    opacity: 0.7;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+    width: 100%;
+
 }
 input {
     position: relative;
-    left: 450px;
+    left: 850px;
     bottom: 25px;
-}
-button {
-    position: relative;
-    left: 450px;
-    bottom: 25px;
+    width: 250px;
+    height: 25px;
 }
 hr {
     bottom: -56px;
 }
 #logo {
     position: relative;
-    left: -190px;
-    bottom: 10px;
+    left: -250px;
+    bottom: 0px;
     width: 95px;
     height: 60px;
     
@@ -53,7 +57,7 @@ position: relative;
 font-family: optima;
 bottom: 115px;
 left: 40px;
-color: #009C35;
+color: #1193DD;
 text-decoration-line: underline;
 }
 #gfont {
@@ -67,7 +71,7 @@ bottom: 135px;
     font-family: optima;
     bottom: -385px;
     left: 50px;
-    color: #009C35;
+    color: #1193DD;
 text-decoration-line: underline;
 }
 #sfont {
@@ -82,7 +86,7 @@ text-decoration-line: underline;
     font-family: optima;
     bottom: -135px;
     left: 940px;
-    color: #009C35;
+    color: #1193DD;
 text-decoration-line: underline;
 }
 #pfont {

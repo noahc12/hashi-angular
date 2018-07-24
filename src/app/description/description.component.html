@@ -2,9 +2,9 @@
   <button (click)="goToList()">
       Search
   </button>
-  <a href="home"><img id="logo" src="../../assets/hashi.jpg"></a>
+  <a href="home"><img id="logo" src="../../assets/logo2.png"></a>
   </div>
-  <img id="bnha" src="https://img1.ak.crunchyroll.com/i/spire1/863ba423b729f58769a4004834e5554e1491069428_full.jpg"> 
+  <img id="bnha" src="{{descriptionpic}}" (mouseover)="startpreview()" (mouseout)="changegif()"> 
   <h1>
       My Hero Academia
     </h1>
@@ -33,6 +33,7 @@
   <img id="season1" src="../../assets/bnha.jpg">
   <a href="http://www.crunchyroll.com/my-hero-academia" id="sub1">Watch with Subtitles</a>
   <a href="https://www.funimation.com/shows/my-hero-academia/" id="dub1">Watch in English</a>
+  
   <!--
   <img id="season2" src="../../assets/bnha.jpg">
   <button id="sub2">Watch (Sub)</button>

@@ -38,7 +38,7 @@ export class ListComponent implements OnInit {
       value: [
         {
           name : 'My Hero Academia',
-          picture: 'https://img1.ak.crunchyroll.com/i/spire1/863ba423b729f58769a4004834e5554e1491069428_full.jpg',
+          picture: '../../assets/mha.jpg',
           description: 'Izuku has dreamt of being a hero all his life sespecially challenging for a kid with no superpowers.',
           pic_height: 100,
           pic_width : 100

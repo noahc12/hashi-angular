@@ -3,11 +3,11 @@ h1 {
     position: relative;
     bottom: 360px;
     left: 430px;
-    color: #009C35;
+    color: #1193DD;
     text-decoration-line: underline;
 }
 .navbarcolor{
-    background-color: #C6F4CB;
+    background-color: #BCD1DD;
 }
 input {
     position: relative;
@@ -20,13 +20,13 @@ button {
     bottom: 25px;
 }
 h6 {
-    color: #009C35;
+    color: #1193DD;
     font-family: optima;  
 }
 #logo {
     position: relative;
     left: -190px;
-    bottom: 10px;
+    bottom: 0px;
     width: 95px;
     height: 60px;
 }
@@ -38,12 +38,12 @@ h6 {
     height: 350px;
 }
 #rating {
-    color: #009C35;
+    color: #1193DD;
     text-decoration-line: underline;
     font-family: optima;
 }
 #about {
-    color: #009C35;
+    color: #1193DD;
     text-decoration-line: underline;
     font-family: optima;
 }
@@ -52,7 +52,7 @@ h6 {
     border: black;
 }
 #season {
-    color: #009C35;
+    color: #1193DD;
     text-decoration-line: underline;
     font-family: optima;
 }
@@ -71,7 +71,7 @@ h6 {
     position: relative;
     left: 40px;
     bottom: -10px;
-    background-color: #4CAF50; /* Green */
+    background-color: #1193DD; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -86,7 +86,7 @@ h6 {
     position: relative;
     left: 100px;
     bottom: -10px;
-    background-color: #4CAF50; /* Green */
+    background-color: #1193DD; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -95,6 +95,13 @@ h6 {
     display: inline-block;
     font-size: 16px;
     font-family: optima; 
+}
+#bnhagif {
+    position: relative;
+    left: 100px;
+    bottom: 675px;
+    width: 250px;
+    height: 350px;
 }
 p {
     font-family: optima;
