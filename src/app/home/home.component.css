@@ -11,7 +11,7 @@ img {
     top: 8px;
     left: 8px;
     z-index: 1;
-    width: 100%;
+    width: 98.6%;
 
 }
 input {
@@ -94,4 +94,20 @@ text-decoration-line: underline;
     font-family: optima;
     left: 995px;
     bottom: -115px;
+}
+#premium {
+    font-family: optima;
+    color: rgb(205, 58, 58);
+    position: relative;
+    left: 450px;
+    bottom: 10px; 
+    text-decoration-line: underline;  
+}
+#categories {
+    font-family: optima;
+    color: green;
+    position: relative;
+    left: 250px;
+    bottom: -10px; 
+    text-decoration-line: underline;  
 }

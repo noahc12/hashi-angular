@@ -11,11 +11,11 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 export class HomeComponent implements OnInit {
   searchText;
   imageSources = [
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Qs9KpmBpu5OFW4qXpg_LGeiqJOrrTCsfI5eg2mgPeccJnLhr',
-    '../../assets/bach.jpg',
-    '../../assets/office.jpg',
-    '../../assets/r&m.jpg',
-    '../../assets/supernatural.jpg',
+    'https://cdn-images-1.medium.com/max/1200/1*Ji9ylBp76WWBqBYOD8A4bw.jpeg',
+    'https://a248.e.akamai.net/ib.huluim.com/show_key_art/70?size=1600x600&region=US',
+    'https://i.pinimg.com/originals/fc/c8/de/fcc8de3d62f654eb98de306139b43bda.jpg',
+    'https://i.ytimg.com/vi/GFQjf4k9l5w/maxresdefault.jpg',
+    'http://freshwallpapers.net/download/9392/1920x1080/download/the-flash-tv-series-logo.jpg'
   ];
   constructor(private router: Router) { }
 
