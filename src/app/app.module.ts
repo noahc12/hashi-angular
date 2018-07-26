@@ -6,9 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { ListComponent } from './list/list.component';
 import { FilterPipe } from './filter.pipe';
-import {SlideshowModule} from 'ng-simple-slideshow';
+import { SlideshowModule } from 'ng-simple-slideshow';
 import { DescriptionComponent } from './description/description.component';
-import { UiModule } from './ui/ui.module';
 
 
 const appRoutes: Routes = [
@@ -39,7 +38,6 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     ),
     FormsModule,
-    UiModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

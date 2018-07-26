@@ -36,55 +36,79 @@ hr {
 #heroes {
     position: relative;
     left: 505px;
-    bottom: -400px;
+    bottom: 0px;
+    width: 200px;
+    height: 150px;
+    border-radius: 20%;
 }
 #prr {
-position: relative;
-left: 945px;
-bottom: -151px;
+    position: relative;
+    left: 930px;
+    bottom: 250px;
+    width: 200px;
+    height: 150px;  
+    border-radius: 20%;
 }
 #gote {
-position: relative;
-left: 35px;
-bottom: 99px;
+    position: relative;
+    left: 0px;
+    bottom: 500px;
+    width: 200px;
+    height: 150px;  
+    border-radius: 20%;
+}
+#arrow {
+    width: 200px;
+    height: 150px;  
+    border-radius: 20%;
+}
+#ga {
+    width: 200px;
+    height: 150px;  
+    border-radius: 20%;
+}
+#chef {
+    width: 200px;
+    height: 150px;  
+    border-radius: 20%;
 }
 .stcaption {
     position: relative;
     left: 505px;
 }
 #gtitle {
-position: relative;
-font-family: optima;
-bottom: 115px;
-left: 40px;
-color: #1193DD;
-text-decoration-line: underline;
+    position: relative;
+    font-family: optima;
+    bottom: 520px;
+    left: 40px;
+    color: #1193DD;
+    text-decoration-line: underline;
 }
 #gfont {
-position: relative;
-font-family: optima;
-left: 85px;
-bottom: 135px;
+    position: relative;
+    font-family: optima;
+    left: 85px;
+    bottom: 540px;
 }
 #stitle {
     position: relative;
     font-family: optima;
-    bottom: -385px;
-    left: 50px;
+    bottom: 20px;
+    left: 79px;
     color: #1193DD;
 text-decoration-line: underline;
 }
 #sfont {
     position: relative;
     font-family: optima;
-    left: 50px;
-    bottom: -365px;
+    left: 80px;
+    bottom: 40px;
 
 }
 #ptitle {
     position: relative;
     font-family: optima;
-    bottom: -135px;
+    bottom: 270px;
     left: 940px;
     color: #1193DD;
 text-decoration-line: underline;
@@ -93,7 +117,7 @@ text-decoration-line: underline;
     position: relative;
     font-family: optima;
     left: 995px;
-    bottom: -115px;
+    bottom: 290px;
 }
 #premium {
     font-family: optima;
